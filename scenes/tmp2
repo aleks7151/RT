@@ -1,0 +1,179 @@
+[scene]:
+1	camera position: 6 0 -15
+2	camera rotation: 0 -35 0
+3	camera focus_distance: 2
+4	background color: 255 255 200
+5	diffuse map: res/HDRI_sky2.jpg
+6	fog enable:0
+7	fog near:35
+8	fog max transparent:0.25
+9	fog color:125 155 155
+10	invert intersect surface: 0
+
+[material]:
+name: earth
+1	color: 255 25 255
+2	diffuse: res/fig1_dif.png
+3	normal: res/fig1_nm.png
+4	mask: res/fig1_mask.png1
+5	specular: 100
+6	reflection: 0.1
+7	reflection: 1.5
+8	transpare: 0
+
+[material]:
+0	name: blue_cyl
+1	color: 100 200 100
+2	diffuse: res/cube_mask.png1
+3	normal: res/water3_nm.png1
+4	mask: res/cube_mask.png1
+5	specular: 1000
+6	reflection: 0.5
+7	refraction: 1.5
+8	transpare: 0.7
+
+[material]:
+0	name: blue_con
+1	color: 0 255 255
+2	diffuse: res/tree1.png
+3	normal: 
+4	mask: res/tree_mask1.png
+5	specular: 1500
+6	reflection: 0
+7	refraction: 1
+8	transpare: 0
+
+[material]:
+0	name: water
+1	color: 25 125 255
+2	diffuse: res/water3.png
+3	normal: res/water3_nm.png
+4	mask: 
+5	specular: 1000
+6	reflection: 0.4
+7	refraction: 1
+8	transpare: 0
+
+[figure]:
+0	type:cylinder
+1	position:18 19 22
+2	center:0 1 0
+3	rotation:0 114 0
+4	radius:3
+5	angle:0
+6	limit:20 0
+7	material: earth
+8	uv scale:2 2
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:plane
+1	position:0 -5 15
+2	center:0 0 10
+3	rotation:-90 0 0
+4	radius:0
+5	angle:0
+6	limit:1 1
+7	material: blue_cyl
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:plane
+1	position:-10 -5 15
+2	center:0 0 10
+3	rotation:-90 0 90
+4	radius:0
+5	angle:0
+6	limit:1 1
+7	material: blue_cyl
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:plane
+1	position:0 5 15
+2	center:0 0 10
+3	rotation:0 0 0
+4	radius:0
+5	angle:0
+6	limit:1 1
+7	material: blue_cyl
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+
+[figure]:
+0	type:plane
+1	position:0 -6 0
+2	center:0 0 0
+3	rotation:0 0 0
+4	radius:0
+5	angle:0
+6	limit:0 0
+7	material: water
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:plane
+1	position:0 -5 15
+2	center:0 0 10
+3	rotation:-90 0 90
+4	radius:0
+5	angle:0
+6	limit:1 1
+7	material: blue_cyl
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:sphere
+1	position:-15 0 10
+2	center:0 1 0
+3	rotation:0 114 0
+4	radius:3
+5	angle:0
+6	limit:0 0
+7	material: earth
+8	uv scale:2 2
+9	uv rotation: 0
+10	uv move: 0 0
+
+[light]:
+0	type:ambient
+1	position:0 0 0
+2	direction:0 0 0
+3	angle:360
+4	intens:0.2
+5	color:255 255 255
+
+[light]:
+0	type:point
+1	position:1 15 -2
+2	direction:0 1 0
+3	angle:30
+4	intens:0.8
+5	color:255 255 255
+
+[light]:
+0	type:lconus
+1	position:-1 15 -2
+2	direction:0 1 0
+3	angle:30
+4	intens:0.8
+5	color:255 255 255
+
+[light]:
+0	type:direct
+1	position:0 0 0
+2	direction:1 1 4
+3	angle:360
+4	intens:0.2
+5	color:255 255 255

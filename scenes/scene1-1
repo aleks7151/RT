@@ -1,0 +1,133 @@
+[scene]:
+1	camera position: -19 4 -19
+2	camera rotation: 0 45 0
+3	camera focus_distance: 2
+4	background color: 50 25 25
+5	diffuse map: res/HDRI_sky.png1
+6	fog enable:0
+7	fog near:35
+8	fog max transparent:0.25
+9	fog color:125 155 155
+10	invert intersect surface: 1
+
+[material]:
+name: mirror
+1	color: 128 128 128
+2	diffuse: 
+3	normal: 
+4	mask: 
+5	specular: 1000
+6	reflection: 0
+7	reflection: 1.3
+8	transpare: 0
+
+[material]:
+name: wave
+1	color: 255 240 155
+2	diffuse: 
+3	normal: res/wave2_nm.png
+4	mask: 
+5	specular: 1000
+6	reflection: 0
+7	reflection: 1
+8	transpare: 0
+
+[material]:
+name: blue
+1	color: 100 90 200
+2	diffuse: 
+3	normal: 
+4	mask: 
+5	specular: 100
+6	reflection: 0
+7	reflection: 1
+8	transpare: 0
+
+[figure]:
+0	type:plane
+1	position:0 -5 0
+2	center:0 0 0
+3	rotation:0 0 0
+4	radius:0
+5	angle:0
+6	limit:0 0
+7	material: wave
+8	uv scale:0.5 0.5
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:plane
+1	position:0 -5 25
+2	center:0 0 0
+3	rotation:90 40 0
+4	radius:0
+5	angle:0
+6	limit:0 0
+7	material: blue
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:sphere
+1	position:0 0 -5
+2	center:0 0 0
+3	rotation:0 0 0
+4	radius:4
+5	angle:0
+6	limit:0 0
+7	material: mirror
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:sphere
+1	position:6 0 5
+2	center:0 0 0
+3	rotation:0 0 0
+4	radius:4
+5	angle:0
+6	limit:0 0
+7	material: mirror
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:sphere
+1	position:3 6 0
+2	center:0 0 0
+3	rotation:0 0 0
+4	radius:4
+5	angle:0
+6	limit:0 0
+7	material: mirror
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[light]:
+0	type:ambient
+1	position:0 0 0
+2	direction:0 0 0
+3	angle:360
+4	intens:0.2
+5	color:255 255 255
+
+[light]:
+0	type:point
+1	position:5 25 15
+2	direction:0 1 0
+3	angle:360
+4	intens:0.7
+5	color:255 255 255
+
+[light]:
+0	type:point
+1	position:-10 25 -5
+2	direction:0 1 0
+3	angle:360
+4	intens:0.7
+5	color:255 255 255

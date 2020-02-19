@@ -1,0 +1,88 @@
+﻿
+https://habr.com/ru/post/436790/
+https://habr.com/ru/post/437714/
+https://habr.com/ru/post/443174/
+http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/
+ 
+https://courses.edx.org/courses/course-v1:UCSanDiegoX+CSE167x+2T2018/courseware/Unit_2/L6/1?activate_block_id=block-v1%3AUCSanDiegoX%2BCSE167x%2B2T2018%2Btype%40html%2Bblock%40video_l6v1
+https://bitbucket.org/Areredify/code_example/src/master/
+https://gamedev.ru/code/articles/vulkan_raytracing
+https://github.com/ssloy/tinyraytracer/wiki
+https://www.youtube.com/watch?v=ARn_yhgk7aE&t=580s
+https://www.youtube.com/watch?v=RIgc5J_ZGu8&list=PLAqGIYgEAxrUO6ODA0pnLkM2UOijerFPv
+https://www.youtube.com/watch?v=Re-e0J1AzYM
+https://www.youtube.com/watch?v=k_aRiYSXcyo&list=PLHm_I0tE5kKPPWXkTTtOn8fkcwEGZNETh
+https://www.youtube.com/watch?v=N8elxpSu9pw
+<------->
+http://kadie.me/working-I-swear/
+http://0ctobyte.github.io/raytracer/#about
+https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-polygon-mesh
+https://www.youtube.com/playlist?list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi
+https://cs.stanford.edu/people/eroberts/courses/soco/projects/1997-98/ray-tracing/
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/lecture-notes/MIT6_837F12_Lec13.pdf
+ 
+Quaternions
+http://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf
+https://habr.com/ru/post/426863/
+https://www.cprogramming.com/tutorial/3d/quaternions.html
+stuff
+https://en.wikipedia.org/wiki/Rasterisation
+https://en.wikipedia.org/wiki/Even–odd_rule
+pathtracing 
+http://blog.hvidtfeldts.net/index.php/2011/06/distance-estimated-3d-fractals-part-i/
+https://github.com/HackerPoet/PySpace
+http://raytracey.blogspot.com/2016/11/opencl-path-tracing-tutorial-1-firing.html
+ 
+
+
+rt
+https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-box-intersection
+http://lousodrome.net/blog/light/2017/01/03/intersection-of-a-ray-and-a-cone/
+Path tracing Ray Tracing Ray Marching
+https://www.dusterwald.com/2016/07/path-tracing-vs-ray-tracing/
+https://www.youtube.com/watch?v=9RHGLZLUuwc
+https://www.youtube.com/watch?v=Cp5WWtMoeKg
+ 
+https://community.khronos.org/t/help-on-image-processing/4831
+ 
+http://www.realtimerendering.com/#books-small-table
+ 
+
+
+
+
+
+
+//bshanae
+The best :
+ https://www.scratchapixel.com
+ 
+Small_PT : 
+http://www.kevinbeason.com/smallpt/
+ 
+SmallPT on ShaderToy :
+ https://www.shadertoy.com/view/lsy3WW
+ 
+Some guy’ blog :
+ https://blog.demofox.org/2016/09/21/path-tracing-getting-started-with-diffuse-and-emissive/
+ 
+Spherical light and importance sampling : 
+https://schuttejoe.github.io/post/
+ 
+SDL2 :
+ https://lazyfoo.net/tutorials/SDL/index.php#Getting%20an%20Image%20on%20the%20Screen
+ 
+Importance Sampling :
+ https://blog.thomaspoulet.fr/uniform-sampling-on-unit-hemisphere/
+ 
+More links :
+ http://lousodrome.net/blog/light/tag/mis/
+ 
+Path Tracing on GPU :
+ https://is.muni.cz/th/396530/fi_b/Bachelor.pdf
+ Bidirectional Path Tracing
+http://www.pbr-book.org/3ed-2018/Light_Transport_III_Bidirectional_Methods/Bidirectional_Path_Tracing.html
+http://sv-journal.org/2013-2/01/index.html
+ 
+https://thebookofshaders.com
+

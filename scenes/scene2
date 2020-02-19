@@ -1,0 +1,155 @@
+[scene]:
+1	camera position: -19 4 -19
+2	camera rotation: 0 45 0
+3	camera focus_distance: 2
+4	background color: 0 0 0
+5	diffuse map: res/HDRI_sky.png1
+6	fog enable:0
+7	fog near:35
+8	fog max transparent:0.25
+9	fog color:125 155 155
+10	invert intersect surface: 1
+
+[material]:
+name: red
+1	color: 255 0 0
+2	diffuse: 
+3	normal: 
+4	mask: res/hemisphere_mask.png
+5	specular: 1000
+6	reflection: 0
+7	reflection: 1
+8	transpare: 0
+
+[material]:
+name: wave
+1	color: 255 255 255
+2	diffuse: res/chess.png
+3	normal: res/wave_nm.png
+4	mask: 
+5	specular: 100
+6	reflection: 0.2
+7	reflection: 1
+8	transpare: 0
+
+[material]:
+name: blue
+1	color: 100 90 200
+2	diffuse: 
+3	normal: 
+4	mask: 
+5	specular: 100
+6	reflection: 0
+7	reflection: 1
+8	transpare: 0
+
+[material]:
+name: green
+1	color: 0 200 0
+2	diffuse: 
+3	normal: 
+4	mask: 
+5	specular: 1000
+6	reflection: 0.2
+7	reflection: 1
+8	transpare: 0
+
+[material]:
+name: chess
+1	color: 200 0 0
+2	diffuse: res/chess2.png
+3	normal: 
+4	mask: 
+5	specular: 1000
+6	reflection: 0.2
+7	reflection: 1
+8	transpare: 0
+
+[figure]:
+0	type:plane
+1	position:0 -5 0
+2	center:0 0 0
+3	rotation:0 44 0
+4	radius:0
+5	angle:0
+6	limit:0 0
+7	material: wave
+8	uv scale:0.5 0.5
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:plane
+1	position:0 -5 25
+2	center:0 0 0
+3	rotation:90 40 0
+4	radius:0
+5	angle:0
+6	limit:0 0
+7	material: blue
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:sphere
+1	position:0 -1 0
+2	center:0 0 0
+3	rotation:0 0 20
+4	radius:4
+5	angle:0
+6	limit:0 0
+7	material: red
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:conus
+1	position:0 -1 18
+2	center:0 3 0
+3	rotation:-170 0 0
+4	radius:0
+5	angle:40
+6	limit:6 0
+7	material: chess
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[figure]:
+0	type:conus
+1	position:16 1 -5
+2	center:0 0 0
+3	rotation:0 0 0
+4	radius:0
+5	angle:40
+6	limit:6 0
+7	material: green
+8	uv scale:1 1
+9	uv rotation: 0
+10	uv move: 0 0
+
+[light]:
+0	type:ambient
+1	position:0 0 0
+2	direction:0 0 0
+3	angle:360
+4	intens:0.3
+5	color:255 255 255
+
+[light]:
+0	type:direct
+1	position:0 25 0
+2	direction:-4 4 -4
+3	angle:360
+4	intens:0.5
+5	color:255 255 255
+
+[light]:
+0	type:point
+1	position:10 5 -15
+2	direction:0 1 0
+3	angle:360
+4	intens:0.7
+5	color:255 255 255
